@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container {
+    position: relative;
+}
+
+.tooltip {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+    color: #000;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.tooltip.show {
+    display: block;
+}
+
+.tooltip p {
+    margin: 5px;
+}
+
+.legend {
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
